@@ -130,6 +130,7 @@ class App():
                     m+=1
                 elif(m==59):
                     h+=1
+                    m = 0
             if(h<10):
                 h = str(0)+str(h)
             else:
